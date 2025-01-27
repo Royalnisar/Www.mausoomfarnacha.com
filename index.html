@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMC.HOUSE</title>
+  <style>
+    /* Global styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      height: 100%;
+      overflow-x: hidden;
+    }
+
+    /* Header styles */
+    header {
+      background-color: rgba(42, 157, 143, 0.9); /* Semi-transparent background */
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    /* Content section */
+    .content {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+      font-size: 2rem;
+      color: #2a9d8f;
+      margin-bottom: 20px;
+    }
+
+    .content ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .content ul li {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .content ul li:before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #2a9d8f;
+      font-size: 1.5rem;
+      top: 0;
+    }
+
+    /* Image section */
+    .service-images {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+
+    .service-images img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Electronics Tips section */
+    .electronics-tips {
+      background-color: #ffffff;
+      margin-top: 40px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .electronics-tips h3 {
+      color: #2a9d8f;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .tips ul {
+      padding-left: 0;
+      list-style-type: none;
+    }
+
+    .tips ul li {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #2a9d8f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      .content h2 {
+        font-size: 1.8rem;
+      }
+
+      .content ul li {
+        font-size: 1rem;
+      }
+
+      .service-images {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .service-images img {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to AMC.HOUSE</h1>
+    <p>Your trusted partner for home appliance maintenance</p>
+  </header>
+
+  <div class="content">
+    <h2>Our Services</h2>
+    <ul>
+      <li>AC Repair & Maintenance</li>
+      <li>Refrigerator Service</li>
+      <li>Washing Machine Maintenance</li>
+      <li>Electrical Appliances Service</li>
+    </ul>
+  </div>
+
+  <!-- Service images section -->
+  <div class="service-images">
+    <img src="https://www.example.com/ac-image.jpg" alt="AC Repair">
+    <img src="https://www.example.com/refrigerator-image.jpg" alt="Refrigerator Service">
+    <img src="https://www.example.com/washing-machine-image.jpg" alt="Washing Machine Maintenance">
+  </div>
+
+  <!-- Electronics Tips section -->
+  <div class="electronics-tips">
+    <h3>Electronics Tips</h3>
+    <div class="tips">
+      <h4>AC Maintenance Tips:</h4>
+      <ul>
+        <li>Always clean the filter regularly.</li>
+        <li>Keep the AC coils clean for better cooling.</li>
+        <li>Check for any leakage and get it repaired.</li>
+      </ul>
+    </div>
+    <div class="tips">
+      <h4>Refrigerator Tips:</h4>
+      <ul>
+        <li>Ensure the door seals are tight to save energy.</li>
+        <li>Defrost regularly to maintain efficiency.</li>
+        <li>Keep the refrigerator clean to prevent bad odors.</li>
+      </ul>
+    </div>
+    <div class="tips">
+      <h4>Washing Machine Tips:</h4>
+      <ul>
+        <li>Clean the drum and filter regularly.</li>
+        <li>Balance the load to prevent damage.</li>
+        <li>Use the right detergent for the best wash quality.</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 AMC.HOUSE | All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMC.HOUSE</title>
+  <style>
+    /* Global styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      height: 100%;
+      overflow-x: hidden;
+    }
+
+    /* Header styles */
+    header {
+      background-color: rgba(42, 157, 143, 0.9); /* Semi-transparent background */
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    /* Content section */
+    .content {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+      font-size: 2rem;
+      color: #2a9d8f;
+      margin-bottom: 20px;
+    }
+
+    .content ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .content ul li {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .content ul li:before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #2a9d8f;
+      font-size: 1.5rem;
+      top: 0;
+    }
+
+    /* Image section */
+    .service-images {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+
+    .service-images img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Electronics Tips section */
+    .electronics-tips {
+      background-color: #ffffff;
+      margin-top: 40px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .electronics-tips h3 {
+      color: #2a9d8f;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .tips ul {
+      padding-left: 0;
+      list-style-type: none;
+    }
+
+    .tips ul li {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #2a9d8f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      .content h2 {
+        font-size: 1.8rem;
+      }
+
+      .content ul li {
+        font-size: 1rem;
+      }
+
+      .service-images {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .service-images img {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to AMC.HOUSE</h1>
+    <p>Your trusted partner for home appliance maintenance</p>
+  </header>
+
+  <div class="content">
+    <h2>Our Services</h2>
+    <ul>
+      <li>AC Repair & Maintenance</li>
+      <li>Refrigerator Service</li>
+      <li>Washing Machine Maintenance</li>
+      <li>Electrical Appliances Service</li>
+    </ul>
+  </div>
+
+  <!-- Service images section -->
+  <div class="service-images">
+    <img src="https://www.example.com/ac-image.jpg" alt="AC Repair">
+    <img src="https://www.example.com/refrigerator-image.jpg" alt="Refrigerator Service">
+    <img src="https://www.example.com/washing-machine-image.jpg" alt="Washing Machine Maintenance">
+  </div>
+
+  <!-- Electronics Tips section -->
+  <div class="electronics-tips">
+    <h3>Electronics Tips</h3>
+    <div class="tips">
+      <h4>AC Maintenance Tips:</h4>
+      <ul>
+        <li>Always clean the filter regularly.</li>
+        <li>Keep the AC coils clean for better cooling.</li>
+        <li>Check for any leakage and get it repaired.</li>
+      </ul>
+    </div>
+    <div class="tips">
+      <h4>Refrigerator Tips:</h4>
+      <ul>
+        <li>Ensure the door seals are tight to save energy.</li>
+        <li>Defrost regularly to maintain efficiency.</li>
+        <li>Keep the refrigerator clean to prevent bad odors.</li>
+      </ul>
+    </div>
+    <div class="tips">
+      <h4>Washing Machine Tips:</h4>
+      <ul>
+        <li>Clean the drum and filter regularly.</li>
+        <li>Balance the load to prevent damage.</li>
+        <li>Use the right detergent for the best wash quality.</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 AMC.HOUSE | All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+  <md nisar>
+  <h1>Welcome to AMC.HOUSE</h1>
+  <p>Your trusted partner for home appliance maintenance</p>
+  <p><strong>Developed by: आपका नाम</strong></p>royal nisar
